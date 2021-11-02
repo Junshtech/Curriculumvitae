@@ -13,7 +13,7 @@
 
 body
 {
-    background-image: url('greyzz.png');
+    background-image: url('styless.jpg');
 }
 
 h1, h2
@@ -32,8 +32,48 @@ img
     border: 1px solid black;
     box-shadow: 2px 2px 2px black;
 }
-
+h1{
+    color: #272fae;
+    font-family: comic sans MS;
+}
 h2
 {
-    color: #6E4A46;
+    color: #444cc4;
+    font-family: comic sans MS;
+}
+li{
+    color: #31323c;
+    font-family: comic sans MS;
+}
+p{
+    color: #31323c;
+    font-family: comic sans MS;
+}
+
+section
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-right: 2%;
+}
+
+#liseret, #contenu
+{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#liseret
+{   
+    width: 10%;
+    margin-right: 3%;
+    height: 500px;
+    background-image: url('lodyas.png');
+    border-radius: 10px;
+}
+
+#contenu
+{
+    width: 85%;
 }
